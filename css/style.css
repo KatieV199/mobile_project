@@ -478,7 +478,8 @@ h3.event-item-title {
 .equpment::after {
 	content: '';
 	position: absolute;
-	background-image: url(../img/border.png);
+	background-image: url(../img/sprites.png);
+	background-position: -12px -105px;
 	width: 75px;
 	height: 75px;
 	top: -15px;
@@ -506,7 +507,8 @@ h3.event-item-title {
 .mark::after {
 	content: '';
 	position: absolute;
-	background-image: url(../img/border.png);
+	background-image: url(../img/sprites.png);
+	background-position: -12px -105px;
 	width: 75px;
 	height: 75px;
     top: -15px;
@@ -533,7 +535,8 @@ h3.event-item-title {
 .help::after {
 	content: '';
 	position: absolute;
-	background-image: url(../img/border.png);
+	background-image: url(../img/sprites.png);
+	background-position: -12px -105px;
 	width: 75px;
 	height: 75px;
 	top: -15px;
