@@ -37,16 +37,16 @@ body {
 .page-header {
 	background-image: url(../img/promo_bg.jpg);
 	background-size: cover;
-    width: 100%;
-    height: 850px;
+	width: 100%;
+	height: 850px;
 }
 
 .page-header__contacts {
 
 	display: flex;
-    vertical-align: middle;
-    justify-content: flex-end;
-    padding: 10px 0 3px 0;
+	vertical-align: middle;
+	justify-content: flex-end;
+	padding: 10px 0 3px 0;
 }
 
 .page-header__contacts-bg {
@@ -55,9 +55,9 @@ body {
 
 .page-header__contacts-list {
 	list-style: none;
-    margin: 0;
-    padding-left: 0;
-    font-family: 'ProximaNovalt';
+ 	margin: 0;
+	padding-left: 0;
+	font-family: 'ProximaNovalt';
 }
 
 .page-header__contacts-list a {
@@ -67,9 +67,10 @@ body {
 }
 
 .page-header__contacts-item {
-    float: left;
-    margin-right: 45px;
-    position: relative;
+	
+	float: left;
+	margin-right: 45px;
+	position: relative;
 
    } 
 
@@ -139,7 +140,7 @@ a.btn-white {
 	display: flex;
 	vertical-align: middle;
 	flex-grow: 3;
-    justify-content: flex-end;
+	justify-content: flex-end;
 }
 
 .main-nav__list {
@@ -150,8 +151,8 @@ a.btn-white {
 
 .main-nav__item {
 	float: left;
-    margin: 0 20px;
-    position: relative;
+	margin: 0 20px;
+	position: relative;
 }
 
 a.main-nav__link {
@@ -166,7 +167,7 @@ a.main-nav__link {
 	content: '';
 	position: absolute;
 	left: 15px;
-    bottom: -5px;
+	bottom: -5px;
 
 }
 
@@ -175,8 +176,8 @@ a.main-nav__link {
 .page-header__main{
 	background-image: url(../img/promo_bg.jpg);
 	background-size: cover;
-    width: 100%;
-    height: 810px;
+	width: 100%;
+	height: 810px;
 }
 
 .promo {
@@ -190,7 +191,7 @@ a.main-nav__link {
 	margin-bottom: 15px;
 	position: relative;
 	width: 260px;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .section__title::after {
@@ -226,9 +227,9 @@ p.promo__descr--view-sm {
 #track {
 	background-image: url(../img/bg-track.jpg);
 	background-size: cover;
-    width: 100%;
-    height: 940px;	
-    margin-top: -40px;
+	width: 100%;
+	height: 940px;	
+	margin-top: -40px;
 }
 
 .section__title {
@@ -250,7 +251,7 @@ p.promo__descr--view-sm {
 	content: '';
 	position: absolute;
 	right: 80px;
-    bottom: -5px;
+	bottom: -5px;
 }
 
 .track__item {
@@ -274,13 +275,13 @@ p.promo__descr--view-sm {
 	background-color: #22313f;
 	opacity: 0.8;
 	width: 214px;
-    height: 140px;
+	height: 140px;
 }
 
 .track__item-title-even {
 	background-color: #22313f;
 	width: 214px;
-    height: 140px;
+	height: 140px;
 }
 
 .track__item-title h3 {
@@ -298,7 +299,7 @@ p.promo__descr--view-sm {
 	text-align: center;
 	margin-top: 0;
 	padding-top: 15px;
-    margin-bottom: 0;
+	margin-bottom: 0;
 
 	}	
 
@@ -317,7 +318,7 @@ p.track__item-icon{
 	width: 33px;
 	height: 20px;
 	left: 20px;
-    bottom: 0;
+	bottom: 0;
 
 }
 
@@ -326,9 +327,9 @@ p.track__item-icon{
 	position: absolute;
 	background-image: url(../img/member.png);
 	width: 23px;
-    height: 25px;
-    left: 25px;
-    bottom: 0;
+	height: 25px;
+	left: 25px;
+	bottom: 0;
 }
 
 .track__item-img {
@@ -342,8 +343,8 @@ p.track__item-icon{
 
 .track__item-descr {
 	background-color: #22313f;
-    height: 155px;
-    opacity: 0.8;
+	height: 155px;
+	opacity: 0.8;
 }
 
 .track__item-descr-even {
@@ -468,10 +469,10 @@ h3.event-item-title {
 	width: 41px;
 	height: 42px;
 	top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background-repeat: no-repeat;
+ 	left: 0;
+	right: 0;
+	margin: auto;
+	background-repeat: no-repeat;
 }
 
 .equpment::after {
@@ -479,12 +480,12 @@ h3.event-item-title {
 	position: absolute;
 	background-image: url(../img/border.png);
 	width: 75px;
-    height: 75px;
-    top: -15px;
-    left: 0px;
-    right: 0;;
-    margin: auto;
-    background-repeat: no-repeat;
+	height: 75px;
+	top: -15px;
+	left: 0px;
+	right: 0;;
+	margin: auto;
+	background-repeat: no-repeat;
 }
 
 
@@ -496,10 +497,10 @@ h3.event-item-title {
 	width: 39px;
 	height: 42px;
 	top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background-repeat: no-repeat;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-repeat: no-repeat;
 }
 
 .mark::after {
@@ -507,10 +508,10 @@ h3.event-item-title {
 	position: absolute;
 	background-image: url(../img/border.png);
 	width: 75px;
-    height: 75px;
+	height: 75px;
     top: -15px;
     left: 0px;
-    right: 0;
+   	right: 0;
     margin: auto;
     background-repeat: no-repeat;
 }
@@ -523,10 +524,10 @@ h3.event-item-title {
 	width: 55px;
 	height: 42px;
 	top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background-repeat: no-repeat;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-repeat: no-repeat;
 }
 
 .help::after {
@@ -534,12 +535,12 @@ h3.event-item-title {
 	position: absolute;
 	background-image: url(../img/border.png);
 	width: 75px;
-    height: 75px;
-    top: -15px;
-    left: 0px;
-    right: 0;
-    margin: auto;
-    background-repeat: no-repeat;
+	height: 75px;
+	top: -15px;
+	left: 0px;
+	right: 0;
+	margin: auto;
+	background-repeat: no-repeat;
 }
 
 .about-us__img-block {
@@ -576,9 +577,9 @@ h3.event-item-title {
 #price {
 	background-image: url(../img/price-bg.jpg);
 	background-size: cover;
-    width: 100%;
-    height: 1700px;	
-    margin-top: 60px;
+	width: 100%;
+	height: 1700px;	
+	margin-top: 60px;
 
 }
 table {
@@ -665,8 +666,8 @@ a.btn-red {
 
 .additions {
 	width: 600px;
-    margin: 0 auto;
-    text-align: center;
+	margin: 0 auto;
+	text-align: center;
 }
 
 a.safety-measures {
@@ -746,7 +747,7 @@ p.reviews__descr {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	text-align: left;
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
 a.reviews__prew-arrow{
@@ -756,8 +757,8 @@ a.reviews__prew-arrow{
 	background-position: 0px -53px;
 	width: 21px;
 	height: 41px;
-    left: 70px;
-    bottom: 150px;
+	left: 70px;
+	bottom: 150px;
 }
 
 .instagram-review {
@@ -767,7 +768,7 @@ a.reviews__prew-arrow{
 	background-position: -221px -25px;
 	width: 20px;
 	height: 20px;
-    left: 80px;
+	left: 80px;
 }
 
 .vk-review {
@@ -777,7 +778,7 @@ a.reviews__prew-arrow{
 	background-position: -251px -1px;
 	width: 29px;
 	height: 19px;
-    left: 110px;
+	left: 110px;
 }
 
 a.reviews__next-arrow{
@@ -825,8 +826,8 @@ a.footer-right__tel-number {
 
 .footer-right__nav-list {
 	list-style: none;
-    margin: 0;
-    padding-left: 0;
+	margin: 0;
+	padding-left: 0;
 }
 
 .footer-right__nav-item {
@@ -855,9 +856,9 @@ a.footer-right__nav-link {
  	position: absolute;
  	background-image: url(../img/phone-call-footer.png);
  	width: 18px;
-    height: 18px;
-    top: 0;
-    left: -25px;
+	height: 18px;
+	top: 0;
+	left: -25px;
  	
  }
 
@@ -866,8 +867,8 @@ a.footer-right__nav-link {
  	position: absolute;
  	background-image: url(../img/placeholder-footer.png);
  	width: 14px;
-    height: 19px;
-    left: -25px;
+	height: 19px;
+	left: -25px;
 
 }
 
@@ -878,9 +879,9 @@ a.footer-right__nav-link {
 
 .footer-right__social-links-list {
 	list-style: none;
-    margin: 0;
-    padding-left: 0;
-    position: relative;
+	margin: 0;
+	padding-left: 0;
+	position: relative;
 }
 
 .footer-right__social-links-item {
@@ -899,8 +900,8 @@ a.footer-right__nav-link {
 	position: absolute;
 	background-image: url(../img/sprites.png);
 	height: 24px;
-    width: 28px;
-    background-position: -107px -112px;
+	width: 28px;
+	background-position: -107px -112px;
     
 }
 
@@ -909,8 +910,8 @@ a.footer-right__nav-link {
 	position: absolute;
 	background-image: url(../img/vk.png);
 	height: 19px;
-    width: 32px;
-    left: 40px;
+	width: 32px;
+	left: 40px;
 }
 
 .instagram {
@@ -918,8 +919,8 @@ a.footer-right__nav-link {
 	position: absolute;
 	background-image: url(../img/instagram.png);
 	height: 24px;
-    width: 24px;
-    left: 90px;
+	width: 24px;
+	left: 90px;
 }
 
 
