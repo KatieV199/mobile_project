@@ -2,13 +2,14 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Belka</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="slick/slick.css">
 	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Belka</title>
 </head>
 <body>
 
@@ -79,7 +80,6 @@
 	<section id="track">
 		<div class="container">
 			<h2 class="section__title title__white">Трассы</h2>
-			<a class="track__prev-arrow" href="#"></a>	
 			<div class="track__item-list">
 				<div class="track__item">
 					<div class="track__item-title">
@@ -151,13 +151,12 @@
 					</div>
 				</div>
 			</div>
-			<a class="track__next-arrow" href="#"></a>
 		</div>
 		
 
 
-		<div class="multiple-items slider">
-			<div class="track__item">
+		<div class="multiple-items">
+			<div class="track__item-slide">
 				<div class="track__item-title">
 					<h3>Трасса #1</h3>
 					<p class="track__item-icon mountain">Высота 15 м.</p>
@@ -172,7 +171,7 @@
 			</div>
 			
 
-			<div class="track__item">
+			<div class="track__item-slide">
 				<div class="track__item-title">
 					<h3>Трасса #2</h3>
 					<p class="track__item-icon mountain">Высота 4 м.</p>
@@ -186,7 +185,7 @@
 				</div>
 			</div>
 
-			<div class="track__item">
+			<div class="track__item-slide">
 				<div class="track__item-title">
 					<h3>Трасса #3</h3>
 					<p class="track__item-icon mountain">Высота 10 м.</p>
@@ -199,7 +198,7 @@
 					<p>Трасса подойдет как для профессионалов, так и для любителей. Необходима хорошая физ.подготовка</p>
 				</div>
 			</div>
-			<div class="track__item">
+			<div class="track__item-slide">
 				<div class="track__item-title">
 					<h3>Трасса #4</h3>
 					<p class="track__item-icon mountain">Высота 3 м.</p>
@@ -213,7 +212,7 @@
 				</div>
 			</div>
 
-			<div class="track__item">
+			<div class="track__item-slide">
 				<div class="track__item-title">
 					<h3>Трасса #5</h3>
 					<p class="track__item-icon mountain">Высота 8 м.</p>
@@ -227,6 +226,28 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="track__list-slider-320">
+			<div class="track__item-slider-320">
+				<img src="img/slider-320-1.jpg" alt="">
+				<div class="track__item-slider-320-descr">
+					<h3>Трасса #1</h3>
+						<p class="track__item-icon mountain">Высота 8 м.</p>
+						<p class="track__item-icon member">Возраст 13+</p>
+						<p class="track-inf">Средняя высота и сложность.Физ.подготовка не обязательная</p>
+				</div>
+			</div>
+
+			<div class="track__item-slider-320">
+				<img src="img/slider-320-1.jpg" alt="">
+				<div class="track__item-slider-320-descr">
+					<h3>Трасса #1</h3>
+						<p class="track__item-icon mountain">Высота 8 м.</p>
+						<p class="track__item-icon member">Возраст 13+</p>
+						<p class="track-inf">Средняя высота и сложность.Физ.подготовка не обязательная</p>
+				</div>
+			</div>
+		</div>
 	</section>		
 
 
@@ -236,24 +257,25 @@
 	<section id="event">
 		<div class="container">
 			<h2 class="section__title">Акции</h2>
-
-			<div class="event__event-item">
-				<h3 class="event-item-title">Компаниям от 5чел. скидка 10%</h3>
-				<img src="img/people-mother-family-father.jpg
+			<div class="event__event-list">
+				<div class="event__event-item">
+					<h3 class="event-item-title">Компаниям от 5чел. скидка 10%</h3>
+					<img src="img/people-mother-family-father.jpg
 				" alt="">
-				<a href="#" class="event-item-link">Подробнее</a>
-			</div>
+					<a href="#" class="event-item-link">Подробнее</a>
+				</div>
 
-			<div class="event__event-item">
-				<h3 class="event-item-title">Многодетным семьям скидка 20%</h3>
-				<img src="img/event2.jpg" alt="">
-				<a href="#" class="event-item-link">Подробнее</a>
-			</div>
+				<div class="event__event-item">
+					<h3 class="event-item-title">Многодетным семьям скидка 20%</h3>
+					<img src="img/event2.jpg" alt="">
+					<a href="#" class="event-item-link">Подробнее</a>
+				</div>
 
-			<div class="event__event-item">
-				<h3 class="event-item-title">Студентами по карте isic 20%</h3>
-				<img src="img/event3.jpg" alt="">
-				<a href="#" class="event-item-link"><span>Подробнее</span></a>
+				<div class="event__event-item">
+					<h3 class="event-item-title">Студентами по карте isic 20%</h3>
+					<img src="img/event3.jpg" alt="">
+					<a href="#" class="event-item-link"><span>Подробнее</span></a>
+				</div>
 			</div>
 
 
@@ -275,6 +297,27 @@
 					<h3 class="event-item-title-768">Студентами по карте isic 20%</h3>
 					<img src="img/event-768-3.jpg" alt="">
 					<a href="#" class="event-item-link-768"><span>Подробнее</span></a>
+				</div>
+			</div>
+		
+
+			<div class="event__event-list-320">
+				<div class="event__event-item-320">
+					<h3 class="event-item-title-320">Компаниям от 5чел. скидка 10%</h3>
+					<img src="img/about-us-320-1.jpg" alt="">
+					<a href="#" class="event-item-link-320">Подробнее</a>
+				</div>
+
+				<div class="event__event-item-320">
+					<h3 class="event-item-title-320">Многодетным семьям скидка 20%</h3>
+					<img src="img/about-us-320-1jpg.jpg" alt="">
+					<a href="#" class="event-item-link-320">Подробнее</a>
+				</div>
+
+				<div class="event__event-item-320">
+					<h3 class="event-item-title-320">Студентами по карте isic 20%</h3>
+					<img src="img/about-us-320-3.jpg" alt="">
+					<a href="#" class="event-item-link-320"><span>Подробнее</span></a>
 				</div>
 			</div>
 		</div>
@@ -311,31 +354,55 @@
         			</div>
         		</div>
         	</div>
+
+        	<div class="about-us-bg-320">
+				<h2 class="section__title title__white">У нас</h2>
+				<div class="about-us__list-320">
+					<div class="about-us__item-320 equpment-320">
+           				<p>Альпинистское снаряжение и страховочные устройства французской компании Petzl</p>
+       				</div>
+       				<div class="about-us__item-320 mark-320">
+            			<p>Понятная маркировка трасс (ламинированные таблицчки и зацепки определенного цвета для каждой трассы)</p>
+        			</div>
+        			<div class="about-us__item-320 help-320">
+            			<p>На территории скалодрома всегда находится инструктор который готов ответить на любой Ваш вопрос!</p>
+        			</div>
+        		</div>
+        	</div>
+
+        	<div class="track__list-slider-320">
+				<div class="about__item-slider-320">
+					<img src="img/ab-us-320-sl.png" alt="">
+				</div>
+
+				<div class="about__item-slider-320">
+					<img src="img/ab-us-320-sl.png" alt="">
+				</div>
+			</div>
+		</div>
       		
-      		<div class="about-us__img-list">
-        		<div class="about-us__imgs">
-        			<img src="img/foto1-au.jpg" alt="">
-        		</div>
+      	<div class="about-us__img-list">
+        	<div class="about-us__imgs">
+        		<img src="img/foto1-au.jpg" alt="">
+        	</div>
 
-        		<div class="about-us__imgs">
-        			<img src="img/foto2-au.jpg" alt="">
-        		</div>
+        	<div class="about-us__imgs">
+        		<img src="img/foto2-au.jpg" alt="">
+        	</div>
 
-        		<div class="about-us__imgs">
-        			<img src="img/foto3-au.jpg" alt="">
-        		</div>
+        	<div class="about-us__imgs">
+        		<img src="img/foto3-au.jpg" alt="">
+        	</div>
 
-        		<div class="about-us__imgs-768">
-        			<img src="img/foto1-au.jpg" alt="">
-        		</div>
+        	<div class="about-us__imgs-768">
+        		<img src="img/foto1-au.jpg" alt="">
+        	</div>
 
-        		<div class="about-us__imgs-768">
-        			<img src="img/foto2-au.jpg" alt="">
-        		</div>
-
-        		<div class="about-us__imgs-768">
-        			<img src="img/foto3-au.jpg" alt="">
-        		</div>
+        	<div class="about-us__imgs-768">
+        		<img src="img/foto2-au.jpg" alt="">
+        	</div> 
+        	<div class="about-us__imgs-768">
+        		<img src="img/foto3-au.jpg" alt="">
         	</div>
         </div>	
     </section>   
@@ -416,39 +483,47 @@
 				</tbody>
 			</table>
 
-			<div class="additions">
-				<a href="" class="btn btn-red">Купит билет</a>
-				<a href="#" class="safety-measures">Техника безопасности (PDF)</a>
-			</div>
-		</div>	
+			
 		
 		
 
-	<div class="price-320">
-		<div class="container">
-			<div class="price-320__item">Выбирете возраст
-				<a href="#" class="price-320__link"></a>
-			</div>
-			<div class="price-320__item">Выбирете место
-				<a href="#" class="price-320__link"></a>
-			</div>
-			<div class="price-320__item">Выбирете длительность
-				<a href="#" class="price-320__link"></a>
-			</div>	
+		<div class="price-320">
+			<div class="container">
+				<div class="price-320__item">
+					<p>Выбирете возраст</p>
+					<a href="#" class="price-320__link"></a>
+				</div>
+				<div class="price-320__item">
+					<p>Выбирете место</p>
+					<a href="#" class="price-320__link"></a>
+				</div>
+				<div class="price-320__item">
+					<p>Выбирете длительность</p>
+					<a href="#" class="price-320__link"></a>
+				</div>	
 		
-			<div class="price-320__ammount">Стоимость абонименты 0 Р</div>
-			<p class="price-320__adds">Персональный оператор парка 600р/час</p>
-			<p class="price-320__adds">Каждый дополнительный час 500 р</p>
+				<div class="price-320__ammount">
+					<p>Стоимость абонименты</p> <p>0 Р</p>
+				</div>
+				<div class="price-320__adds-list">
+					<p class="price-320__adds">Персональный оператор парка 600р/час<br>
+				Каждый дополнительный час 500 р</p>
+				</div>
+			</div>	
 		</div>	
-	</div>	
+
+		<div class="additions">
+			<a href="" class="btn btn-red">Купит билет</a>
+			<a href="#" class="safety-measures">Техника безопасности (PDF)</a>
+		</div>
+		
 
 
     <section id="reviews">
     	<div class="container reviews-bg">
         	<h2 class="section__title">Отзывы</h2>
    			<div class="reviews__list">
-        		<a href="#" class="reviews__prew-arrow">
-        		</a>	
+        			
         	
        			<div class="reviews__item">
         			<img src="img/review-foto-1.jpg" alt="">
@@ -477,8 +552,39 @@
         			<p class="reviews__descr">Парк "BELKA" отличная альтернатива наскучившим походам в кино и кафе.</p>
        			</div>
        		
-      			<a href="#" class="reviews__next-arrow"></a>
+      			
       		</div>
+      	</div>	 	
+
+      	
+   		<div class="reviews__list-320">
+        		
+       		<div class="reviews__item">
+        		<img src="img/review-foto-1.jpg" alt="">
+        		<p class="reviews__name">Алексей.</p>
+        		<p class="reviews__job">Скалолаз-любитель.</p>
+        		<a class="reviewx-social-link instagram-review"></a>
+        		<a class="reviewx-social-link vk-review"></a>
+        		<p class="reviews__descr">Интересные трассы, вкусная еда и самые приветливые тренеры!</p>
+       		</div>
+
+       		<div class="reviews__item">
+        		<img src="img/review-foto-2.jpg" alt="">
+        		<p class="reviews__name">Мария.</p>
+        		<p class="reviews__job">Студентка.</p>
+        		<a class="reviewx-social-link instagram-review"></a>
+        		<a class="reviewx-social-link vk-review"></a>
+        		<p class="reviews__descr">Лучший скалодром в<br> городе!</p>
+       		</div>	
+
+        	<div class="reviews__item">
+        		<img src="img/review-foto-3.jpg" alt="">
+        		<p class="reviews__name">Екатерина.</p>
+        		<p class="reviews__job">Мама троих детей.</p>
+        		<a class="reviewx-social-link instagram-review"></a>
+        		<a class="reviewx-social-link vk-review"></a>
+        		<p class="reviews__descr">Парк "BELKA" отличная альтернатива наскучившим походам в кино и кафе.</p>
+       		</div>
       	</div>	 	
     </section>
     </section>
@@ -487,6 +593,10 @@
 
 
     <footer id="footer-section">
+    	<div class="footer-map">
+    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10235.593519901078!2d30.271527501039255!3d60.07555297443653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963547d7977ee9%3A0x303e6d5c12d21ac8!2z0JLRi9Cx0L7RgNCz0YHQutC-0LUg0YguLCAyMjAsINCf0LDRgNCz0L7Qu9C-0LLQviwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5NDM2Mg!5e0!3m2!1sru!2sru!4v1504457620768" width="100%" height="210" frameborder="0" style="border:0" allowfullscreen></iframe>
+    	</div>
+
        	<div class="container">
         	<column class="footer-right">
 				<p class="footer-right__adress footer-adress">Выборгское ш.,220</p>
@@ -548,6 +658,32 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+	$('.track__list-slider-320').slick({
+ 	slidesToShow: 1,
+  	slidesToScroll: 1,
+ 	autoplay: true,
+  	autoplaySpeed: 2000,
+  	prevArrow: '<button id="prev" type="button" class="arrow-slider prev"></button>',
+  	nextArrow: '<button id="next" type="button" class="arrow-slider next"></button>'
+	});
+	</script>
+	<script type="text/javascript">
+	$('.reviews__list-320').slick({
+	prevArrow: '<button id="prev" type="button" class="arrow-slider prev"></button>',
+  	nextArrow: '<button id="next" type="button" class="arrow-slider next"></button>'
+	});
+	</script>
+	<script type="text/javascript">
+	$('.reviews__list').slick({
+  	slidesToShow: 3,
+  	slidesToScroll: 1,
+  	autoplay: true,
+ 	autoplaySpeed: 2000,
+  	prevArrow: '<button id="prev" type="button" class="arrow-slider prev"></button>',
+  	nextArrow: '<button id="next" type="button" class="arrow-slider next"></button>'
+	});
+	</script>
 </body>			
 
 		
