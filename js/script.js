@@ -10,9 +10,9 @@
 
 
 	$('.track__list-slider-320').slick({
- 	slidesToShow: 1,
+ 	  slidesToShow: 1,
   	slidesToScroll: 1,
- 	autoplay: true,
+ 	  autoplay: true,
   	autoplaySpeed: 2000,
   	prevArrow: '<button id="prev" type="button" class="arrow-slider prev"></button>',
   	nextArrow: '<button id="next" type="button" class="arrow-slider next"></button>'
@@ -32,3 +32,12 @@
   	prevArrow: '<button id="prev" type="button" class="arrow-slider prev"></button>',
   	nextArrow: '<button id="next" type="button" class="arrow-slider next"></button>'
 	});
+
+  $(document).ready(function() {
+  function accordion() {
+    $(this).toggleClass('active-sl');
+    $('.price-320__item').not(this).removeClass('active-sl');
+  }
+    $('.price-320__item').on('click', accordion);
+  
+});
